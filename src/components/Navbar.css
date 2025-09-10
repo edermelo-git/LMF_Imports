@@ -3,10 +3,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    background-color: #212121;
+    padding: 8px 10%;
+    background-color: #121212;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     z-index: 100;
 }
@@ -16,13 +16,24 @@
     width: auto;
 }
 
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-grow: 1; 
+    gap: 40px; 
+}
+
+
 .navbar a {
     position: relative;
     font-size: 18px;
     color: aliceblue;
     font-weight: 500;
-    margin-left: 40px;
     text-decoration: none;
+    text-align: center; 
+    display: inline-block;
     transition: color 0.3s;
 }
 
