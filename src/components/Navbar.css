@@ -1,11 +1,10 @@
-
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background-color: #000000;
+    background-color: #212121;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +14,6 @@
 .logo img {
     height: 60px;
     width: auto;
-    background-color: #000000;
 }
 
 .navbar a {
@@ -23,7 +21,9 @@
     font-size: 18px;
     color: aliceblue;
     font-weight: 500;
-    margin-left: 40px; 
+    margin-left: 40px;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .navbar a::before {
@@ -34,11 +34,13 @@
     width: 0;
     height: 2px;
     background-color: #C6912C;
-    transition: .3s;
+    transition: width 0.3s;
+}
 
+.navbar a:hover {
+    color: #C6912C;
 }
 
 .navbar a:hover::before {
     width: 100%;
-   
 }
