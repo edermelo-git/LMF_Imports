@@ -16,8 +16,6 @@ const Navbar = () => {
                 <a href="/">Sobre</a>
                 <a href="/">contato</a>
             </nav>
-
-
         </header>
 
     )

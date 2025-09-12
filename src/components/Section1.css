@@ -1,3 +1,46 @@
-body {
+.container {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.lmf-led img {
+    width: 650px;
+    height: auto;
+}
+
+.description-section1 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: .009em;
+    color: #86868b;
+    text-align: center;
+    line-height: 1.5;
+    margin: 40px auto;
+    text-decoration: none;
+    margin-top: -100px;
+}
+
+.contact-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 999px;
+    padding: 18px 31px;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 295px;
+}
+
+.contact-button:hover {
+    background-color: white;
+    color: black;
 }

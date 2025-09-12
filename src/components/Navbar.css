@@ -3,10 +3,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 8px 10%;
+    padding:5px 10%;
     background-color: #121212;
     display: flex;
-    justify-content: space-between; 
+    justify-content: center;
     align-items: center;
     z-index: 100;
 }
@@ -23,6 +23,7 @@
     align-items: center;
     flex-grow: 1; 
     gap: 40px; 
+    padding-right: 30px;
 }
 
 

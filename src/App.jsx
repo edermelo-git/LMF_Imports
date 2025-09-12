@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Section1 from "./components/Section1";
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <Navbar />
 
       <main className="main-content">
-        <h1>Bem-vindo à LMF Imports</h1>
+        <Section1/>
       </main>
 
       <Footer />
